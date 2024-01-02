@@ -3,9 +3,9 @@ services:
   jupyter:
     build: ./docker/jupyter
     volumes:
-      - ./work:/Users/gboehs/Documents/docker/python_docker_env/work
+      - ./work:/home/jovyan/work
     ports:
       - 8888:8888
     container_name: jupyter_notebook
-    command: "start-notebook.sh --NotebookApp.token=c8de56fa4deed24894803e93c227592aef6538f93025fe01"
+    command: "start-notebook.sh"
 

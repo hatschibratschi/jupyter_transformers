@@ -1,1 +1,5 @@
 transformers
+scikit-learn
+pytorch 
+torchvision
+accelerate
