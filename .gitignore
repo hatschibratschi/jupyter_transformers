@@ -1,2 +1,6 @@
-work
+work/cached*
+work/*_dataset*
+work/gpt2-gerchef
+work/recipes.json
+work/.ipynb_checkpoints
 *.swp
