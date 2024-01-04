@@ -41,6 +41,14 @@ install all from requirements.txt
 conda install --file requirements.txt
 ```
 
+# run jupyter
+
+with non-admin 
+
+```
+jupyter notebook
+```
+
 # docker stuff
 
 trainer.train() does not work on M1 with docker-jupyter

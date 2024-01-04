@@ -1,3 +1,4 @@
+jupyter
 transformers
 scikit-learn
 pytorch
