@@ -20,7 +20,7 @@ brew install miniconda
 install with admin to environment ''base'' or other.
 
 ```
-conda install ... 
+conda install --file requirements.txt
 ```
 
 init conda for shells
@@ -33,12 +33,6 @@ check environments
 
 ```
 conda env list
-```
-
-install all from requirements.txt
-
-```
-conda install --file requirements.txt
 ```
 
 # run jupyter
