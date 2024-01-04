@@ -1,5 +1,5 @@
 transformers
 scikit-learn
-pytorch==2.1.1
+pytorch
 torchvision
-accelerate
+conda-forge::accelerate
